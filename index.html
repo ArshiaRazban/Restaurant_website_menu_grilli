@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="fa">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>گریلی</title>
+    <meta name="descriptrion" content="این یک قالب html رستوران است که توسط razdevelop ساخته شده است.">
+
+    <!-- favicon -->
+    <script src="https://kit.fontawesome.com/55129f18df.js" crossorigin="anonymous"></script>
+
+    <!-- google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&family=Cairo:wght@200..1000&family=Changa:wght@200..800&family=Elms+Sans:ital,wght@0,100..900;1,100..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Zain:ital,wght@0,200;0,300;0,400;0,700;0,800;0,900;1,300;1,400&display=swap"
+        rel="stylesheet">
+
+    <!-- custom css likn -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- preload images -->
+    <link rel="stylesheet" href="./images/hero-slider-1.jpg">
+    <link rel="stylesheet" href="./images/hero-slider-2.jpg">
+    <link rel="stylesheet" href="./images/hero-slider-3.jpg">
+
+</head>
+
+<body>
+    <!-- PRELOADER -->
+    <div class="preload" data-preload>
+        <div class="circle"></div>
+        <p class="text">Grill</p>
+    </div>
+
+
+    <!-- TOP BAR -->
+    <div class="topbar">
+        <div class="container">
+
+            <address class="topbar-item">
+                <div class="icon">
+                    <i class="fa-solidfa-location-dot"></i>
+                </div>
+
+                <span class="span">محل ادرس رستوران</span>
+            </address>
+
+            <div class="separator"></div>
+
+            <div class="topbar-item item-2">
+                <div class="icon"><i class="fa-regular fa-clock"></i></div>
+            </div>
+
+            <span class="span">زمان کاری</span>
+
+            <a href="tel:+981234567890" class="topbar-item">
+                <div class="icon"><i class="fa-solid fa-phone"></i></div>
+
+                <span class="span">شماره تماس</span>
+            </a>
+
+            <div class="separator"></div>
+
+            <a href="mail:" class="topbar-item">
+                <div class="icon"><i class="fa-regular fa-envelope"></i></div>
+
+                <span class="span">example@restaurant.com</span>
+            </a>
+
+        </div>
+    </div>
+
+
+    <!-- HEADER -->
+
+    <header class="header" data-header>
+        <div class="container">
+
+            <a href="#" class="logo">
+                <img src="images/logo(1).svg" width="200" height="50" alt="Grill - Home">
+            </a>
+
+            <nav class="navbar" data-navbar>
+
+                <button class="close-btn" aria-label="close menu" data-nav-toggler>
+                    <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+                </button>
+
+                <a href="#" class="logo">
+                    <img src="images/logo(1).svg" width="200" height="50" alt="Grill - Home">
+                </a>
+
+                <ul class="navbar-list">
+
+                    <li class="navbar-item">
+                        <a href="#home" class="navbar-link hover-underline active">
+                            <div class="separator"></div>
+
+                            <span class="span">Home</span>
+                        </a>
+                    </li>
+
+                    <li class="navbar-item">
+                        <a href="#menu" class="navbar-link hover-underline ">
+                            <div class="separator"></div>
+
+                            <span class="span">Menus</span>
+                        </a>
+                    </li>
+
+                    <li class="navbar-item">
+                        <a href="#about" class="navbar-link hover-underline ">
+                            <div class="separator"></div>
+
+                            <span class="span">About Us</span>
+                        </a>
+                    </li>
+
+                    <li class="navbar-item">
+                        <a href="#" class="navbar-link hover-underline ">
+                            <div class="separator"></div>
+
+                            <span class="span">Our Chefs</span>
+                        </a>
+                    </li>
+
+                    <li class="navbar-item">
+                        <a href="#" class="navbar-link hover-underline ">
+                            <div class="separator"></div>
+
+                            <span class="span">Pages</span>
+                        </a>
+                    </li>
+
+                    <li class="navbar-item">
+                        <a href="#" class="navbar-link hover-underline ">
+                            <div class="separator"></div>
+
+                            <span class="span">Contact</span>
+                        </a>
+                    </li>
+
+                </ul>
+
+                <div class="text-center">
+                    <p class="headline-1 navbar-title">از ما دیدن کنید</p>
+
+                    <address class="body-4">
+                        ادرس رستوران
+                    </address>
+
+                    <p class="body-4 navbar-text">Open: 9:30 am - 2:30 pm</p>
+
+                    <a href="mailto:example@restaurant.com" class="body-4 sidebar-link">example@restaurant.com</a>
+
+                    <div class="seprator"></div>
+
+                    <p class="contact-label">درخواست رزرو</p>
+
+                    <a href="tel:+980211234567890" class="body-1 contact-number hover-underline">
+                        +98-021-1234567890
+                    </a>
+                </div>
+
+            </nav>
+
+            <a href="#" class="btn btn-secondary">
+                <span class="text text-1">یک میز پیدا کنید</span>
+
+                <span class="text text-2" aria-hidden="true">یک میز پیدا کنید</span>
+            </a>
+
+            <button class="nav-open-btn" aria-label="open menu" data-nav-toggler="">
+                <span class="line line-1"></span>
+                <span class="line line-2"></span>
+                <span class="line line-3"></span>
+            </button>
+ 
+            <div class="overlay" data-nav-toggler data-overlay></div>
+
+
+        </div>
+
+    </header>
+
+
+    <!-- custom js link -->
+    <script src="./script.js"></script>
+
+</body>
+
+</html>
